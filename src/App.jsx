@@ -6,7 +6,7 @@ import { TodoContextProvider } from "./contexts/TodoContext";
 function App() {
   return (
     <TodoContextProvider>
-      <div className="w-full pt-8 h-[100vh] bg-slate-800 overflow-hidden flex justify-start items-center flex-col">
+      <div className="w-full py-8 h-[100%] overflow-x-hidden flex justify-start items-center flex-col">
         <Header title="Context Todo Application" />
         <Form />
         <Todos />
